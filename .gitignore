@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Runtime data - generated automatically
+data/
+
+# YOLOv8 weights - downloaded automatically by Ultralytics
+yolov8n.pt
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
