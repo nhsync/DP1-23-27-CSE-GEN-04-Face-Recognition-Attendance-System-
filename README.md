@@ -5,7 +5,7 @@ Presenz is a CPU-powered, web-based classroom attendance system that combines re
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -28,15 +28,15 @@ Everything runs on a standard CPU laptop. No GPU, no external database server, a
 
 ## Features
 
-- 🎥 Real-time face detection and LBPH-based recognition with 4-frame confirmation streak
-- 📋 Automatic attendance logging with timestamp, subject, and status
-- 🔒 Prevents proxy attendance and duplicate entries per session
-- 😴 Engagement monitoring: detects phone usage (YOLOv8n + eye heuristic) and sleeping (eye absence + face disappearance)
-- 📸 Timestamped JPEG snapshot evidence saved per engagement event
-- 📊 Per-subject CSV attendance reports with status, reason, and snapshot columns
-- 🌐 Browser-accessible dashboard (Flask + Socket.IO) with live annotated video feed
-- 👤 Student management: register, rename, delete, and re-enroll via web UI
-- 💻 No GPU, no database server — runs entirely on CPU with flat-file storage
+- Real-time face detection and LBPH-based recognition with 4-frame confirmation streak
+- Automatic attendance logging with timestamp, subject, and status
+- Prevents proxy attendance and duplicate entries per session
+- Engagement monitoring: detects phone usage (YOLOv8n + eye heuristic) and sleeping (eye absence + face disappearance)
+- Timestamped JPEG snapshot evidence saved per engagement event
+- Per-subject CSV attendance reports with status, reason, and snapshot columns
+- Browser-accessible dashboard (Flask + Socket.IO) with live annotated video feed
+- Student management: register, rename, delete, and re-enroll via web UI
+- No GPU, no database server — runs entirely on CPU with flat-file storage
 
 ---
 
